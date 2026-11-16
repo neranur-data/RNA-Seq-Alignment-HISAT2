@@ -1,0 +1,30 @@
+
+# Local environments and IDE files
+.venv/
+venv/
+.idea/
+.DS_Store
+
+# Raw sequencing data
+data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# Reference genome and HISAT2 indexes
+reference/
+*.ht2
+*.ht2l
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Temporary files
+__pycache__/
+*.tmp
